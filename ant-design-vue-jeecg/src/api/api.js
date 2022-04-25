@@ -1,6 +1,7 @@
 import { getAction, deleteAction, putAction, postAction, httpAction } from '@/api/manage'
 import Vue from 'vue'
 import {UI_CACHE_DB_DICT_DATA } from "@/store/mutation-types"
+// 这是一个测试
 
 //角色管理
 const addRole = (params)=>postAction("/sys/role/add",params);
