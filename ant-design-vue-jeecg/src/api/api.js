@@ -1,3 +1,4 @@
+// 这是一个注释
 import { getAction, deleteAction, putAction, postAction, httpAction } from '@/api/manage'
 import Vue from 'vue'
 import {UI_CACHE_DB_DICT_DATA } from "@/store/mutation-types"
